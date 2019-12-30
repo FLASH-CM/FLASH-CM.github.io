@@ -3,19 +3,23 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>Tag: NOI_Linux - Ming</title>
+<title>2020年百科知识竞赛信息类试题 - Ming</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Ming">
-<meta property="og:url" content="http://yoursite.com/tags/NOI-Linux/index.html">
+    <meta name="description" content="T1 阅读代码判断输出结果T2 阅读代码补充空白部分">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2020年百科知识竞赛信息类试题">
+<meta property="og:url" content="http://yoursite.com/XSH-1/index.html">
 <meta property="og:site_name" content="Ming">
+<meta property="og:description" content="T1 阅读代码判断输出结果T2 阅读代码补充空白部分">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/images/og_image.png">
+<meta property="og:updated_time" content="2019-12-30T08:57:26.619Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ming">
+<meta name="twitter:title" content="2020年百科知识竞赛信息类试题">
+<meta name="twitter:description" content="T1 阅读代码判断输出结果T2 阅读代码补充空白部分">
 <meta name="twitter:image" content="http://yoursite.com/images/og_image.png">
 
 
@@ -90,7 +94,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/og_image.png" alt="Ming" height="28">
+                <img src="/images/og_image.png" alt="2020年百科知识竞赛信息类试题" height="28">
             
             </a>
         </div>
@@ -136,29 +140,18 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
-    <div class="card-content">
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li><a href="/tags">Tags</a></li>
-            <li class="is-active"><a href="#" aria-current="page">NOI_Linux</a></li>
-        </ul>
-        </nav>
-    </div>
-</div>
-
-    <div class="card">
     
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-08T06:00:00.000Z">2019-07-08</time>
+                <time class="level-item has-text-grey" datetime="2019-12-30T08:43:26.000Z">2019-12-30</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    6 minutes read (About 871 words)
+                    a minute read (About 224 words)
                 </span>
                 
                 
@@ -167,21 +160,26 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/NL-1/">Gedit 快速入门</a>
+                2020年百科知识竞赛信息类试题
             
         </h1>
         <div class="content">
-            <h2 id="Part-0：前言"><a href="#Part-0：前言" class="headerlink" title="Part 0：前言"></a>Part 0：前言</h2><p>&emsp;&emsp;为方便各位同学在最初接触 <u>Linux</u> 系统时能够简单快速入门，本文章工作环境以CCF官方提供的 <a href="http://www.noi.cn/newsview.html?hash=BDBDBE&id=267&type=11" target="_blank" rel="noopener">NOI_Linux</a> 为准，在之后的文章中，我们将使用更加便捷的 <u>ubuntu-18.10</u> 书写教程，如有不便，望各位读者理解。<br>&emsp;&emsp;本文中介绍的 Gedit 编辑器可以满足大部分 OI 选手的需求，另外关于 Vim 的介绍，将在后期的文章中提到。</p>
+            <h3 id="T1-阅读代码判断输出结果"><a href="#T1-阅读代码判断输出结果" class="headerlink" title="T1 阅读代码判断输出结果"></a>T1 阅读代码判断输出结果</h3><h3 id="T2-阅读代码补充空白部分"><a href="#T2-阅读代码补充空白部分" class="headerlink" title="T2 阅读代码补充空白部分"></a>T2 阅读代码补充空白部分</h3><a id="more"></a>
+<br>
+
+<p><strong>T1. 阅读以下代码，结合输入数据与分析，判断输出的内容为（&emsp;&emsp;）</strong></p>
+<figure class="highlight cpp hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="hljs-keyword">int</span> n,m;</span><br><span class="line"></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">qpow</span><span class="hljs-params">(<span class="hljs-keyword">int</span> a,<span class="hljs-keyword">int</span> b)</span></span>&#123;</span><br><span class="line">	<span class="hljs-keyword">int</span> c=<span class="hljs-number">1</span>;</span><br><span class="line">	<span class="hljs-keyword">while</span>(b&gt;<span class="hljs-number">1</span>)&#123;</span><br><span class="line">		<span class="hljs-keyword">if</span>(b%<span class="hljs-number">2</span>)</span><br><span class="line">			c*=a;</span><br><span class="line">		b/=<span class="hljs-number">2</span>;</span><br><span class="line">		a*=a;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="hljs-keyword">return</span> c*a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;</span><br><span class="line">	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">	<span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d\n"</span>,qpow(n,m));</span><br><span class="line">	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>输入数据：$2$&emsp;$10$<br>&emsp;&emsp;A. 0.2&emsp;&emsp;B. 12&emsp;&emsp;C. 20&emsp;&emsp;D. 1024&emsp;&emsp;E. 以上答案均不正确</p>
+<p><strong>T2.以下代码适用于线性枚举判断素数，在空白处补充的内容最合适的是（&emsp;&emsp;）</strong></p>
+<figure class="highlight cpp hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="hljs-keyword">int</span> n,m;</span><br><span class="line"></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;</span><br><span class="line">	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>,&amp;n);</span><br><span class="line">	<span class="hljs-keyword">for</span>(                  )</span><br><span class="line">		<span class="hljs-keyword">if</span>(!(n%i))&#123;</span><br><span class="line">			<span class="hljs-built_in">printf</span>(<span class="hljs-string">"No\n"</span>);</span><br><span class="line">			<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="hljs-built_in">printf</span>(<span class="hljs-string">"Yes\n"</span>);</span><br><span class="line">	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">A. int i=1;i&lt;=n;i=i+1</span><br><span class="line">B. int i=2;i&lt;n;++i</span><br><span class="line">C. int i=2;i&lt;=n;i++</span><br><span class="line">D. int i=2;i&lt;(int)sqrt(n);i++</span><br><span class="line">E. int i=2;i&lt;=(int)sqrt(n);i++</span><br></pre></td></tr></table></figure>
+
+<p>答案：D E</p>
+
         </div>
         
-        
-        <div class="level is-mobile">
-            <div class="level-start">
-                <div class="level-item">
-                <a class="button is-size-7 is-light" href="/NL-1/#more">Read More</a>
-                </div>
-            </div>
-        </div>
         
         
     </div>
@@ -189,9 +187,30 @@
 
 
 
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
+        <div class="buttons is-centered">
+            
+        </div>
+    </div>
+</div>
 
 
 
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/NY-1/">
+                <span class="level-item">更优的文件存储</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
 
 
 </div>
@@ -752,7 +771,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/og_image.png" alt="Ming" height="28">
+                    <img src="/images/og_image.png" alt="2020年百科知识竞赛信息类试题" height="28">
                 
                 </a>
                 <p class="is-size-7">
